@@ -1,0 +1,104 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+    
+  }
+  
+
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+
+  .clear {
+      clear: both;
+  }
+
+html{
+    width:100%;
+    height:100%;
+}
+body {
+    margin: auto;
+    height: 100%;
+
+    background-color: #4cbe42;
+}
+
+main {
+    margin: 0 auto;
+    margin-top: 250px;
+    height: 250px;
+    
+    width: 50%;
+}
+.top{
+    display:flex;
+    height:100%;
+    justify-content: center;
+}
+img{
+    height:100%;
+
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    background-color: #4cbe42;
+    box-shadow: none;
+    color: white;
+    font-size: 18px; 
+    font-family:'Fredoka One', cursive;
+    letter-spacing: 1px;
+    border-radius: 9%;
+    padding: .5rem;
+    width: 130px;
+    border: 2px solid white;
+}
+button:hover{
+    background-color:white;
+    color:#4cbe42;
+    
+}
+    
+
+.loginSignUpButtons{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    
+}
+
+h1 {
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin-top: 60px;
+}
+
+form {
+    display: inline-block;
+    margin: 15px;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+
+}
+
+.not{
+    text-decoration: underline;
+}
