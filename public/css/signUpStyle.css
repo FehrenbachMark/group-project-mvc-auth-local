@@ -92,7 +92,11 @@ form {
     display: inline-block;
     margin: 15px;
 }
-
+.login-form {
+  width: 100%;
+  text-align: center;
+  margin-top: 25%;
+}
 .completed{
     text-decoration: line-through;
     color: gray;
