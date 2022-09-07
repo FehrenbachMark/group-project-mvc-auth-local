@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Your description goes here">
+        <meta name="keywords" content="one, two, three">
+
+        <title>Grocery List</title>
+
+        <!-- external CSS link -->
+
+        <link rel="stylesheet" href="css/signUpStyle.css">
+    </head>
+    <body>
+        <main class="signUpMain">
+                <section class="top">
+                    <img src="img/signup.svg" alt="logo">
+                </section>
+                <section class="userInput">
+                    <form action="/signup" method="POST">
+                        <input class="forms" type="text" name="userName" placeholder="User Name">
+                        <input class="forms" type="email" name="email" placeholder="Email">
+                        <input class="forms" type="password" name="password" placeholder="Password">
+                        <input class="forms" type="password" name="confirmPassword" placeholder="Confirm Password">
+                        <a href="todos.ejs"><input  class="submitButton" type="submit" ></a>
+                    </form>
+                </section>
+                <section class="signUpButton">
+                    <form action="index.html">
+                        <button>Go Home?</button>
+                    </form>
+                </section>
+        </main>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
