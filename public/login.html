@@ -4,21 +4,37 @@
         <meta charset="utf-8">
         <meta name="description" content="Your description goes here">
         <meta name="keywords" content="one, two, three">
-
+        
         <title>Login</title>
 
         <!-- external CSS link -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="css/signUpStyle.css">
     </head>
     <body>
         <main>
+           
 
+            <section class="top">
+                <img src="img/welcome.svg" alt="logo">
+            </section>
+
+            <section class="inputs">
+                <form action="/login" method="POST">
+                    <input class="forms" type="email" name="email" placeholder="Email">
+                    <input class="forms" type="password" name="password" placeholder="Password">
+                    <a href="todos.ejs"><input  class="submitButton" type="submit" ></a>
+                </form>
+            </section>
+            <section class="signUpButton">
+                <form action="index.html">
+                    <button>Go Home?</button>
+                </form>
+            </section>
+            
         </main>
-
-        <h1>Grocery List</h1>
-        <a href="/login"> Login</a>
-        <a href="/signup"> Signup</a>
+        
+       
 
 
         <script type="text/javascript" src="js/main.js"></script>
